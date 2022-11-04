@@ -12,9 +12,40 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-info {
+  margin-left: 20px;
+  font-size: 64px;
+}
+.flag {
+  width: 120px;
+}
+.flags {
+  width: 30px;
+}
+.list {
+  font-size: 15px;
+}
+.descr {
+  font-weight: 700;
+}
+.list-countrys {
+  font-size: 15px;
+  font-weight: 500;
 }
